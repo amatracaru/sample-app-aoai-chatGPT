@@ -25,7 +25,7 @@ import rehypeRaw from "rehype-raw";
 import uuid from "react-uuid";
 
 import styles from "./Chat.module.css";
-import Logo from "../../assets/nirida.svg";
+import Logo from "../../assets/globeteam.svg";
 
 import {
   ChatMessage,

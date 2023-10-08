@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import styles from "./Layout.module.css";
-import Logo from "../../assets/nirida.svg";
+import Logo from "../../assets/globeteam.svg";
 import { CopyRegular, ShareRegular } from "@fluentui/react-icons";
 import {
   CommandBarButton,
@@ -88,7 +88,7 @@ const Layout = () => {
           <Stack horizontal verticalAlign="center">
             <img src={Logo} className={styles.headerIcon} aria-hidden="true" />
             <Link to="/" className={styles.headerTitleContainer}>
-              <h1 className={styles.headerTitle}>Nirida</h1>
+              <h1 className={styles.headerTitle}>Globeteam</h1>
             </Link>
           </Stack>
           <Stack horizontal tokens={{ childrenGap: 4 }}>
